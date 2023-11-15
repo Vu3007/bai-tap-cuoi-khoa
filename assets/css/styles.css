@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
     
 }
 .container{max-width:  1920px;
@@ -75,6 +76,12 @@ line-height: normal;
     scale: 1.25;
     align-items: center;
    
+}
+.header-right ul li a{
+    color: #000000;
+}
+.header-right ul p a{
+    text-decoration: none;
 }
 .header-right ul .account{
     display: flex;
@@ -332,6 +339,12 @@ margin-top:90px ;
     margin-top: 140px;
     margin-left: 568px;
     margin-right: 606.5px;
+    
+}
+.title p a {
+    color: #000;
+    list-style: none;
+    text-decoration: none;
 }
 .title p{
     color: var(--Dark, #000);
@@ -363,9 +376,10 @@ text-transform: capitalize;
 }
 .menu ul li {
     padding:0 16px; 
-  
-    
-    
+     
+}
+.menu ul li a p {
+    color: #000;
 }
 .menu ul li a{
     text-decoration: none;
